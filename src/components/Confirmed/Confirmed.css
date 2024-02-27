@@ -1,0 +1,6 @@
+.confirmed {
+  background: url("../../assets/image/icon-thank-you.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

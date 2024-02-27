@@ -1,0 +1,16 @@
+.img1 {
+  background: url("../../assets/image/icon-arcade.svg");
+}
+.img2 {
+  background: url("../../assets/image/icon-advanced.svg");
+}
+.img3 {
+  background: url("../../assets/image/icon-pro.svg");
+}
+.img {
+  height: 50px;
+  width: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

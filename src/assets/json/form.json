@@ -1,0 +1,22 @@
+{
+  "plan": [
+    {
+      "name": "Arcade",
+      "moPrice": "$9/mo",
+      "yrPrice": "$90/yr",
+      "img": "img1"
+    },
+    {
+      "name": "Advanced",
+      "moPrice": "$12/mo",
+      "yrPrice": "$120/yr",
+      "img": "img2"
+    },
+    {
+      "name": "Pro",
+      "moPrice": "$15/mo",
+      "yrPrice": "$150/yr",
+      "img": "img3"
+    }
+  ]
+}

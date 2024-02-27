@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "ubuntuBlod";
+  src: url("./assets/fonts/ubuntu-bold.ttf");
+}
+
+@font-face {
+  font-family: "ubuntuBlodItalic";
+  src: url("./assets/fonts/ubuntu-bolditalic.ttf");
+}
+
+@font-face {
+  font-family: "ubuntuRegular";
+  src: url("./assets/fonts/ubuntu-regular.ttf");
+}
+
+@font-face {
+  font-family: "ubuntuItalic";
+  src: url("./assets/fonts/ubuntu-italic.ttf");
+}
+
+@font-face {
+  font-family: "ubuntuMedium";
+  src: url("./assets/fonts/ubuntu-medium.ttf");
+}
+
+@font-face {
+  font-family: "ubuntuMediumItalic";
+  src: url("./assets/fonts/ubuntu-mediumitalic.ttf");
+}
+
+@font-face {
+  font-family: "ubuntuLight";
+  src: url("./assets/fonts/ubuntu-light.ttf");
+}
+
+@font-face {
+  font-family: "ubuntuLightItalic";
+  src: url("./assets/fonts/ubuntu-lightitalic.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  min-width: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: #edf3fd;
+  font-family: "ubuntuRegular";
+}
+
+/* ######### RESPONSIVE ######### */
+/* ### MOBILE ### */
+@media (max-width: 576px) {
+}
+
+/* ### TABLET ### */
+@media (min-width: 577px) and (max-width: 768px) {
+}
+
+/* ### DESKTOP ### */
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+
+/* ### BIG DESKTOP ### */
+@media (min-width: 1025px) {
+}
