@@ -40,6 +40,9 @@ export default function Form() {
   }, [selectPlan, monthPrice]);
 
   useEffect(() => {
+    setAddOn1Price(0)
+    setAddOn2Price(0)
+    setAddOn3Price(0)
     if (addOn1) {
       setAddOn1Price(monthPrice ? 1 : 10);
     }
